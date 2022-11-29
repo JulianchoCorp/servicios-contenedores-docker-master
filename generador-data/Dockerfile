@@ -5,4 +5,4 @@ RUN python3 -m pip install Flask
 RUN python3 -m pip install Faker
 WORKDIR /usr/src/app
 
-CMD ["python3","api.py"]
+CMD ["python3","api.py"] 
